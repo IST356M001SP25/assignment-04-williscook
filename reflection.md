@@ -22,4 +22,5 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+I have understand how to utilize the connection between streamlit and dataframe together by filing the JSON, CSV, and Xlsx file. It is important for making data exploation easy and intuitive by letting the users upload their files and dive right into analysis without any hassle.
 

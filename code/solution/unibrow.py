@@ -9,6 +9,7 @@ st.title("UniBrow")
 st.caption("The Universal data browser")
 
 file = st.file_uploader("Upload a file:", type=["csv", "xlsx", "json"])
+
 if file:
     file_type = pl.get_file_extension(file.name)
     df = pl.load_file(file, file_type)
