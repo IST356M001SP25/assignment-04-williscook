@@ -1,10 +1,4 @@
 import pandas as pd
-from code.pandaslib import (
-        get_column_names, 
-        get_columns_of_type, 
-        get_unique_values, 
-        get_file_extension, 
-        load_file)
 
 def test_should_pass():
     print("This will always pass!")

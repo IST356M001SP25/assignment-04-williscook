@@ -1,6 +1,4 @@
 '''
-A Library of useful pandas helper functions
-SOLUTION FILE!!!!
 '''
 import pandas as pd
 
@@ -71,9 +69,3 @@ if __name__ == '__main__':
     print(f"Float64 Columns: {cols}")
     unique = get_unique_values(df, 'state')
     print(f"Unique States: {unique}")
-
-
-
-
-
-    # solution pandaslib.py
